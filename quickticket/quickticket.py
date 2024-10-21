@@ -1,7 +1,7 @@
 # quickticket/quickticket.py
 
-from helper.database import create_tables  # Import for setting up the database
-from helper.setup_helper import setup_ticketing  # Import for setting up the ticketing system
+from .helper.database import create_tables  # Import for setting up the database
+from .helper.setup_helper import setup_ticketing  # Import for setting up the ticketing system
 from discord.ext import commands
 
 class QuickTicket:

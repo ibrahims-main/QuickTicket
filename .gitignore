@@ -2,3 +2,5 @@
 /dist
 /quickticket.egg-info
 /setup.py
+/__pycache__
+/.vscode
