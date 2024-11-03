@@ -77,8 +77,8 @@ async def setup_ticketing(ctx, bot: commands.Bot):
 
             embed = discord.Embed(
                 title="Open a New Ticket",
-                description="Open a new ticket for asking questions (just dont troll)",
-                color=discord.Color.green()
+                description="Open a new ticket for asking questions ( just dont troll :) )",
+                color=discord.Color.random()
             )
 
             await channel.send(embed=embed, view=CreateButton())
